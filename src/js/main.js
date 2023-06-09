@@ -1,4 +1,3 @@
-alert("Xin chào nhà tuyển dụng, web này em làm vào tháng 6 năm 2022")
 
 const number = document.querySelector('.number');
 const count = document.querySelector('.number-play');

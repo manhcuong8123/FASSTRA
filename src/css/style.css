@@ -39,26 +39,12 @@ html {
     background-size: cover;
 }
 
-.style-banner {
-
-
-    clip-path: polygon(0 79%, 100% 38%, 100% 44%, 34% 100%, 0 100%);
-
-    background-color: #fa4216;
-    width: 100%;
-    position: absolute;
-    top: 400px;
-    height: 500px;
-    transform: rotate(0.6deg);
-
-}
-
 .style {
     position: absolute;
     right: 0;
     height: 2px;
     width: 85%;
-    background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#fa4216), to(#fa4216));
+    /* background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#fa4216), to(#fa4216)); */
     background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(0, 0, 0, 0), #fa4216, #fa4216);
 }
 
@@ -872,7 +858,6 @@ html {
     border-radius: 5px;
     text-align: center;
     border: 1px solid #999;
-    -moz-appearance: textfield;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -916,8 +901,7 @@ input[type="number"]::-webkit-inner-spin-button {
     top: -5px;
     background: none;
     pointer-events: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+   
 }
 
 input[type="range"]::-webkit-slider-thumb {
