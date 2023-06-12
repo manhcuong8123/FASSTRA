@@ -39,12 +39,26 @@ html {
     background-size: cover;
 }
 
+/* .style-banner {
+
+
+    clip-path: polygon(0 79%, 100% 38%, 100% 44%, 34% 100%, 0 100%);
+
+    background-color: #fa4216;
+    width: 100%;
+    position: absolute;
+    top: 400px;
+    height: 500px;
+    transform: rotate(0.6deg);
+
+} */
+
 .style {
     position: absolute;
     right: 0;
     height: 2px;
     width: 85%;
-    /* background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#fa4216), to(#fa4216)); */
+    background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#fa4216), to(#fa4216));
     background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(0, 0, 0, 0), #fa4216, #fa4216);
 }
 
@@ -87,7 +101,6 @@ html {
     position: absolute;
     height: 2px;
     width: 80%;
-    background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(#fa4216), to(#fa4216));
     background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(0, 0, 0, 0), #fa4216, #fa4216);
 }
 
@@ -110,6 +123,7 @@ html {
 
 .right-menu li i {
     color: #fa4216;
+    margin: 0 10px;
 }
 
 #btn-menu {
@@ -901,7 +915,7 @@ input[type="number"]::-webkit-inner-spin-button {
     top: -5px;
     background: none;
     pointer-events: none;
-   
+    
 }
 
 input[type="range"]::-webkit-slider-thumb {
